@@ -1,0 +1,28 @@
+html {
+	font-family: Rubic, sans-serif;
+}
+
+.navigation a:hover {
+	text-decoration: underline !important;
+}
+
+.blogNav {
+	display: flex;
+	flex-direction: column;
+	padding: 4rem 0;
+	text-align: left;
+}
+.blogNav a {
+	padding: .5rem 0;
+	color: cornflowerblue;
+	text-decoration: none;
+	transition: all .3s;
+}
+.blogNav a:hover {
+	color: darkblue;
+	text-decoration: underline;
+}
+
+.postBody {
+	text-align: left;
+}
